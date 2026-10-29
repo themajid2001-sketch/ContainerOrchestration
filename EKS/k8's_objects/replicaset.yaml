@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: ReplicaSet
 metadata:
-  name: customer
+  name: driver
   #namespace: appserver
   labels:
     app: packersmovers
@@ -16,8 +16,8 @@ spec:
         app: packersmovers
     spec:
       containers:
-      - name: customer
-        image: public.ecr.aws/b0k7t8o2/customer:1
+      - name: driver
+        image: public.ecr.aws/b0k7t8o2/driver:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
