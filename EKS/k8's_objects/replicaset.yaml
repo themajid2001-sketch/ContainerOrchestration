@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: customer
-        image: 573567580560.dkr.ecr.ap-south-1.amazonaws.com/customer:3
+        image: public.ecr.aws/b0k7t8o2/customer:1
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
