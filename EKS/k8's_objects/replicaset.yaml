@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: driver
-        image: public.ecr.aws/b0k7t8o2/driver:1
+        image: 357021375224.dkr.ecr.us-east-2.amazonaws.com/customer
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
