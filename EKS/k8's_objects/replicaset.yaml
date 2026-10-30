@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: driver
-        image: 357021375224.dkr.ecr.us-east-2.amazonaws.com/customer
+        image: 357021375224.dkr.ecr.us-east-2.amazonaws.com/driver
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
